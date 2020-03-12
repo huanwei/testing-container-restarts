@@ -16,5 +16,3 @@ ef0e86b7a3db        huanwei/testing-container-restarts:v1   "/bin/sh -c '/bin/ba
 After 30s, test1 will try to restart 5 times, until 5 * 30s then it exits with error code 1.
 
 After 30s, test2 exits directly with error code 0. Docker understood this as a success and did not restart the container.
-
-
